@@ -1,0 +1,17 @@
+// BASE
+@import "./base/common";
+
+// COMPONENTS
+@import "./components/section";
+@import "./components/container";
+@import "./components/title";
+
+// LAYOUT
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/price";
+@import "./layout/footer";
+
+// UTILS
+@import "./utils/visually-hidden";

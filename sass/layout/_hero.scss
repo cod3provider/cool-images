@@ -1,0 +1,106 @@
+.hero-section {
+    position: relative;
+}
+
+.hero-section::before {
+    content: "";
+    background-image: url(../../images/desktop/dots.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 209px;
+    height: 285px;
+    right: 0px;
+    top: 114px;
+    z-index: 1;
+}
+
+.hero-section::after {
+    content: "";
+    position: absolute;
+
+    width: 1376.03px;
+    height: 767.91px;
+    left: 855px;
+    top: -463.91px;
+    background: #ffeaa7;
+    border-radius: 99px;
+    transform: rotate(-45deg);
+    overflow: hidden;
+    // width: 50%;
+    // height: 50%;
+    // top: 0;
+    // right: 0;
+    // background-image: url(../../images/desktop/Rectangle.png);
+    // background-repeat: no-repeat;
+    z-index: -5;
+}
+
+.hero {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 1.08;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // text-align: center;
+    letter-spacing: -3px;
+
+    color: #2d3436;
+    text-shadow: 0px 4px 0px #ffffff;
+}
+
+.hero-span {
+    color: #d63031;
+    position: relative;
+
+    &::after {
+        content: "";
+        width: 190px;
+        height: 50px;
+
+        background: #55efc4;
+        border-radius: 999px;
+
+        position: absolute;
+        left: -5px;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 1.2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    // text-align: center;
+    letter-spacing: -1px;
+
+    color: #2d3436;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.78;
+    color: #2d3436;
+
+    &-left {
+        width: 266px;
+    }
+
+    &-right {
+        width: 364px;
+    }
+}
+
+// .text-left {
+//     width: 266px;
+// }
+
+// .text-right {
+//     width: 364px;
+// }
