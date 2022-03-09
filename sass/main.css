@@ -34,24 +34,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1440px;
-  }
+  width: 1470px;
 }
 
 .title {
@@ -348,7 +331,10 @@ img {
 }
 
 .about-icon {
+  width: 56px;
+  height: 56px;
   fill: #ffeaa7;
+  border-radius: 50px;
 }
 
 .icon-pink {
@@ -488,6 +474,40 @@ img {
   color: #2d3436;
   border: 1px solid #6c5ce7;
   border-radius: 25px;
+}
+
+.price-title {
+  margin-bottom: 16px;
+}
+
+.price-plan {
+  margin-bottom: 24px;
+}
+
+.features-item {
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features-text {
+  margin-left: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #2d3436;
+}
+
+.price-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .visually-hidden {

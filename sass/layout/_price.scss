@@ -112,3 +112,46 @@
         border-radius: 25px;
     }
 }
+
+.price-title {
+    margin-bottom: 16px;
+}
+
+.price-plan {
+    margin-bottom: 24px;
+}
+
+// .features-list {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+
+.features-item {
+    margin-bottom: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.features-text {
+    margin-left: 16px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+
+    // display: flex;
+    // align-items: center;
+
+    color: #2d3436;
+}
+
+.price-button {
+    display: flex;
+    align-self: flex-end;
+}
+
+// .price-item {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
