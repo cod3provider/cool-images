@@ -27,12 +27,16 @@
         <header class="header">
             <div class="container header-container">
                 <nav class="main-nav">
-                    <a href="" class="logo">
-                        <svg class="logo-icon" width="64" height="64">
+                    <img
+                        class="image-logo"
+                        src="/images/icon-layout.svg"
+                        alt=""
+                    />
+                    <a href="" class="logo-link">Grid</a>
+
+                    <!-- <svg class="logo-icon" width="64" height="64">
                             <use href="./images/icon-layout2.svg"></use>
-                        </svg>
-                        Grid</a
-                    >
+                        </svg> -->
 
                     <ul class="header-list">
                         <li class="header-item">
@@ -59,7 +63,8 @@
 
         <main>
             <section class="section hero-section">
-                <div class="container">
+                <div class="container hero-container">
+                    <div class="absolute-container"></div>
                     <h1 class="hero">
                         Combine&nbsp;
                         <span class="hero-span">fine&nbsp; </span>images
@@ -67,11 +72,22 @@
 
                     <p class="hero-text">To represent a product</p>
 
-                    <div>
+                    <div class="flex-container">
                         <p class="text text-left">
                             Use mixed grid with imagery, replace with your own
                             photos and descriptions
                         </p>
+                        <img
+                            class="img-ball"
+                            src="./images/desktop/ball.png"
+                            alt=""
+                        />
+                        <img
+                            class="img-man"
+                            src="./images/desktop/man.png"
+                            alt=""
+                        />
+                        <img src="./images/desktop/book.png" alt="" />
                         <p class="text text-right">
                             This is multipurpose grid, it fits for portfolio,
                             services or agency web site
@@ -93,13 +109,17 @@
 
                     <ul class="about-list">
                         <li class="about-item">
-                            <svg
+                            <!-- <svg
                                 class="about-icon icon-pink"
                                 width="56"
                                 height="56"
                             >
                                 <use href="./img/icon-phone-call.svg"></use>
-                            </svg>
+                            </svg> -->
+                            <div class="about-icon icon-pink"></div>
+                            <!-- <img class="about-icon icon-pink" alt="" /> -->
+                            <!-- src="./images/phone-call-svgrepo-com.svg" width="56" -->
+                            <!-- height="56" alt=""> -->
                             <h3 class="about-title">Support</h3>
                             <p class="text about-text">
                                 Delivering faster and more personalized support
@@ -119,11 +139,10 @@
                                     href="./images/pie-chart-svgrepo-com.svg"
                                 ></use>
                             </svg>
-                            <h3 class="about-title">Detach if need</h3>
+                            <h3 class="about-title">Sales growth</h3>
                             <p class="text about-text">
-                                Detaching the block instance will help you to
-                                control the indents and font styles more
-                                precisely
+                                Identify qualified customers with easy-to-use
+                                live chat messaging and AI-based Sales Bot
                             </p>
                             <button class="about-btn">Learn more</button>
                         </li>
@@ -136,11 +155,11 @@
                             >
                                 <use href></use>
                             </svg>
-                            <h3 class="about-title">Toggle icons</h3>
+                            <h3 class="about-title">Coponents-driven</h3>
                             <p class="text about-text">
-                                You can toggle to any icon within Instances and
-                                customize outlined stroke to more bolder or
-                                lighter
+                                Delivering faster and more personalized support
+                                with shared screens and cool design systems for
+                                Figma
                             </p>
                             <button class="about-btn">Learn more</button>
                         </li>
@@ -153,11 +172,11 @@
                             >
                                 <use href></use>
                             </svg>
-                            <h3 class="about-title">Replace a title</h3>
+                            <h3 class="about-title">Swap the icon</h3>
                             <p class="text about-text">
-                                Detaching the block instance will help you to
-                                control the indents and font styles more
-                                precisely
+                                You can toggle to any icon within Instances and
+                                customize outlined stroke to more bolder or
+                                lighter
                             </p>
                             <button class="about-btn">Learn more</button>
                         </li>
@@ -180,32 +199,42 @@
                             <p class="price-plan">
                                 <span class="plan-span">Free</span> / forever
                             </p>
+
                             <ul class="features-list">
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-gray"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Components-driven system
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-gray"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Sales-boosting landing pages
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-gray"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Awesome Feather icons pack
                                     </p>
                                 </li>
                             </ul>
+
                             <button class="price-button">Try for free</button>
                         </li>
                         <li class="price-item item-after">
@@ -213,48 +242,64 @@
                             <p class="price-plan">
                                 <span class="plan-span">$24</span> / month
                             </p>
+
                             <ul>
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-yellow"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Components-driven system
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-yellow"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Sales-boosting landing pages
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-yellow"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Awesome Feather icons pack
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-yellow"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Themed into 3 different styles
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-yellow"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Will help to learn Figma
                                     </p>
                                 </li>
                             </ul>
+
                             <button class="price-button">
                                 Regular license
                             </button>
@@ -264,40 +309,53 @@
                             <p class="price-plan">
                                 <span class="plan-span">$12</span> / editor
                             </p>
+
                             <ul>
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-mint"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Components-driven system
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-mint"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Sales-boosting landing pages
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-mint"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Awesome Feather icons pack
                                     </p>
                                 </li>
+
                                 <li class="features-item">
-                                    <svg width="32" height="32">
-                                        <use></use>
-                                    </svg>
+                                    <img
+                                        class="price-icon-check price-icon-mint"
+                                        src="./images/icon-check.svg"
+                                        alt=""
+                                    />
                                     <p class="features-text">
                                         Themed into 3 different styles
                                     </p>
                                 </li>
                             </ul>
+
                             <button class="price-button">
                                 Extended license
                             </button>
@@ -306,5 +364,148 @@
                 </div>
             </section>
         </main>
+
+        <footer class="footer">
+            <div class="container footer-container">
+                <div class="footer-wrap footer-wrap-left">
+                    <div class="footer-social">
+                        <p class="footer-text footer-text-margin">follow us</p>
+                        <ul class="footer-social-list">
+                            <li class="footer-social-item">
+                                <a class="footer-social-link" href="">
+                                    <img
+                                        src="/images/icon-facebook.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-social-item">
+                                <a class="footer-social-link" href="">
+                                    <img
+                                        src="./images/icon-linkedin.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                            <li class="footer-social-item">
+                                <a class="footer-social-link" href="">
+                                    <img src="./images/icon-slack.svg" alt="" />
+                                </a>
+                            </li>
+                            <li class="footer-social-item">
+                                <a class="footer-social-link" href="">
+                                    <img
+                                        src="./images/icon-twitter.svg"
+                                        alt=""
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-info">
+                        <p class="footer-text footer-text-position">
+                            information
+                        </p>
+                        <ul class="footer-info-list">
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    About Fapster app
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a
+                                    class="footer-info-link link-decoration"
+                                    href="#"
+                                >
+                                    Onhovered / Active
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    We are hiring!
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    Get in Touch
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    Privacy Policy
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    Resources
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    Things We Like
+                                </a>
+                            </li>
+
+                            <li class="footer-info-item">
+                                <a class="footer-info-link" href="#">
+                                    Terms of Service
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-wrap">
+                    <div class="footer-follow">
+                        <p class="footer-text">follow us</p>
+                        <a class="mail-link" href="mailto:hello@fapsterapp.com">
+                            hello@fapsterapp.com
+                        </a>
+                    </div>
+
+                    <form class="footer-form" action="">
+                        <p class="footer-text footer-mail-position">
+                            keep in touch
+                        </p>
+                        <div class="form-wrapper">
+                            <label for="">
+                                <input
+                                    class="footer-input footer-input-style"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Your name"
+                                />
+                            </label>
+                            <label for="">
+                                <input
+                                    class="footer-input footer-input-style"
+                                    id="email"
+                                    type="email"
+                                    placeholder="E-mail"
+                                />
+                            </label>
+                            <textarea
+                                class="footer-area-message footer-input-style"
+                                name=""
+                                id=""
+                                cols="30"
+                                rows="10"
+                                placeholder="Leave your message"
+                            ></textarea>
+                            <button class="form-button" type="submit">
+                                SEND
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>

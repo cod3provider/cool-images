@@ -18,7 +18,7 @@
     display: flex;
 }
 
-.logo {
+.logo-link {
     margin-right: 64px;
     font-weight: bold;
     font-size: 48px;
@@ -31,10 +31,10 @@
     color: #2d3436;
 }
 
-.logo-icon {
+.image-logo {
+    display: inline-block;
     width: 64px;
     height: 64px;
-    fill: black;
 }
 
 .header-list {
@@ -69,6 +69,16 @@
 
 .header-link {
     padding: 7px 5px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+
+    // display: flex;
+    // align-items: center;
+    // text-align: center;
+
+    color: #6c5ce7;
 
     &:hover,
     &:focus {

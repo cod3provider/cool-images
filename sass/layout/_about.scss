@@ -12,12 +12,15 @@
 
 .about-list {
     display: flex;
+    margin-top: 40px;
 }
 
 .about-item {
-    margin-top: 40px;
-
     width: 270px;
+}
+
+.about-item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .about-title {
@@ -61,23 +64,35 @@
 .about-icon {
     width: 56px;
     height: 56px;
-    fill: #ffeaa7;
-
+    padding: 7px;
     border-radius: 50px;
 }
 
 .icon-pink {
     background-color: #e84393;
+    background-image: url(/images/phone-call-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-blue {
     background-color: #0984e3;
+    background-image: url(/images/pie-chart-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-purple {
     background-color: #6c5ce7;
+    background-image: url(/images/zap-svgrepo-com.svg);
+
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .icon-green {
     background-color: #00b894;
+    background-image: url(/images/thumbs-up-svgrepo-com.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }

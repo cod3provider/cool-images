@@ -74,6 +74,18 @@
     height: 536px;
 
     padding: 32px;
+    transition: filter;
+
+    background: #ffffff;
+    border-radius: 16px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 
     &:hover,
     &:focus {
@@ -115,6 +127,16 @@
 
 .price-title {
     margin-bottom: 16px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.78;
+
+    // display: flex;
+    // align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #6c5ce7;
 }
 
 .price-plan {
@@ -133,6 +155,26 @@
     align-items: center;
 }
 
+.price-icon-check {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+
+    border-radius: 50px;
+}
+
+.price-icon-gray {
+    background-color: #c2c2c2;
+}
+
+.price-icon-yellow {
+    background-color: #fdcb6e;
+}
+
+.price-icon-mint {
+    background-color: #55efc4;
+}
+
 .features-text {
     margin-left: 16px;
 
@@ -147,8 +189,39 @@
 }
 
 .price-button {
+    width: 306px;
+    height: 64px;
     display: flex;
-    align-self: flex-end;
+
+    margin: 0 auto;
+    margin-top: auto;
+    padding: 8px 16px;
+
+    border: 1px solid #adadad;
+    border-radius: 16px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.78;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+
+    color: #6c5ce7;
+
+    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: 0.25px;
+        color: #ffffff;
+
+        background-color: #6c5ce7;
+    }
 }
 
 // .price-item {
