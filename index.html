@@ -63,8 +63,8 @@
 
         <main>
             <section class="section hero-section">
+                <div class="absolute-container"></div>
                 <div class="container hero-container">
-                    <div class="absolute-container"></div>
                     <h1 class="hero">
                         Combine&nbsp;
                         <span class="hero-span">fine&nbsp; </span>images
@@ -73,25 +73,77 @@
                     <p class="hero-text">To represent a product</p>
 
                     <div class="flex-container">
-                        <p class="text text-left">
-                            Use mixed grid with imagery, replace with your own
-                            photos and descriptions
-                        </p>
-                        <img
-                            class="img-ball"
-                            src="./images/desktop/ball.png"
-                            alt=""
-                        />
-                        <img
-                            class="img-man"
-                            src="./images/desktop/man.png"
-                            alt=""
-                        />
-                        <img src="./images/desktop/book.png" alt="" />
-                        <p class="text text-right">
-                            This is multipurpose grid, it fits for portfolio,
-                            services or agency web site
-                        </p>
+                        <div class="left-container">
+                            <p class="text text-left">
+                                Use mixed grid with imagery, replace with your
+                                own photos and descriptions
+                            </p>
+
+                            <div class="thumb-ball">
+                                <img
+                                    class="img-ball"
+                                    src="./images/desktop/ball.png"
+                                    alt=""
+                                />
+                                <p class="label-ball label-text">
+                                    We aimed to deliver HQ templates for Figma
+                                    <span class="label-ball-span"
+                                        >Used by 123 people</span
+                                    >
+                                </p>
+                            </div>
+
+                            <button class="hero-btn">Learn more</button>
+                        </div>
+
+                        <div class="right-container">
+                            <div class="thumb-man">
+                                <img
+                                    class="img-man"
+                                    src="./images/desktop/man.png"
+                                    alt=""
+                                />
+                            </div>
+
+                            <div class="right-top-container">
+                                <p class="text text-right">
+                                    This is multipurpose grid, it fits for
+                                    portfolio, services or agency web site
+                                </p>
+
+                                <div class="horizontal-container">
+                                    <img
+                                        class="img-little"
+                                        src="./images/desktop/letter.png"
+                                        alt=""
+                                    />
+                                    <img
+                                        class="img-little"
+                                        src="./images/desktop/shoes.png"
+                                        alt=""
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="right-bottom-container">
+                                <img
+                                    class="img-bottom img-book"
+                                    src="./images/desktop/book.png"
+                                    alt=""
+                                />
+
+                                <img
+                                    class="img-bottom img-woman"
+                                    src="./images/desktop/woman.png"
+                                    alt=""
+                                />
+                                <img
+                                    class="img-bottom img-windows"
+                                    src="./images/desktop/windows.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -300,7 +352,7 @@
                                 </li>
                             </ul>
 
-                            <button class="price-button">
+                            <button class="price-button" type="button">
                                 Regular license
                             </button>
                         </li>
