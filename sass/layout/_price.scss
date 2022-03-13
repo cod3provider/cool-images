@@ -21,7 +21,7 @@
     color: #6c5ce7;
 
     &::after {
-        content: "";
+        content: " ";
         position: absolute;
         width: 126px;
         height: 12px;
@@ -87,42 +87,55 @@
         margin-right: 30px;
     }
 
-    &:hover,
-    &:focus {
+    &-choice {
+        position: relative;
+
         filter: drop-shadow(0px 8px 8px rgba(38, 50, 56, 0.12))
             drop-shadow(0px 16px 24px rgba(38, 50, 56, 0.08));
+
+        &::before {
+            content: "BEST!";
+            position: absolute;
+            top: 32px;
+            right: 32px;
+            padding: 8px;
+            width: 90px;
+            height: 32px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-weight: 800;
+            font-size: 12px;
+            line-height: 1.25;
+            letter-spacing: 2.5px;
+            text-transform: uppercase;
+
+            color: #2d3436;
+
+            border: 1px solid #6c5ce7;
+            border-radius: 25px;
+        }
+
+        &::after {
+            content: url(../../images/wiggle.svg);
+            position: absolute;
+            width: 200px;
+            height: 126px;
+            bottom: -20px;
+            left: -20px;
+
+            z-index: -10;
+            opacity: 0.99;
+        }
+
+        z-index: 5;
     }
 }
 
-.item-after {
+.price-item-after {
     position: relative;
-
-    &::after {
-        content: "BEST!";
-        position: absolute;
-        top: 32px;
-        right: 32px;
-        padding: 8px;
-        width: 90px;
-        height: 32px;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        font-weight: 800;
-        font-size: 12px;
-        line-height: 1.25;
-        letter-spacing: 2.5px;
-        text-transform: uppercase;
-
-        /* Black */
-
-        color: #2d3436;
-
-        border: 1px solid #6c5ce7;
-        border-radius: 25px;
-    }
 }
 
 .price-title {
@@ -211,7 +224,7 @@
 
     color: #6c5ce7;
 
-    transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 500ms linear;
 
     &:hover,
     &:focus {

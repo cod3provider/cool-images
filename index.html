@@ -85,12 +85,13 @@
                                     src="./images/desktop/ball.png"
                                     alt=""
                                 />
-                                <p class="label-ball label-text">
+
+                                <div class="label-ball label-text">
                                     We aimed to deliver HQ templates for Figma
-                                    <span class="label-ball-span"
-                                        >Used by 123 people</span
-                                    >
-                                </p>
+                                </div>
+                                <div class="label-ball-post label-text">
+                                    Used by 123 people
+                                </div>
                             </div>
 
                             <button class="hero-btn">Learn more</button>
@@ -103,6 +104,11 @@
                                     src="./images/desktop/man.png"
                                     alt=""
                                 />
+                                <div
+                                    class="label-man label-big-text label-text"
+                                >
+                                    Consider it done!
+                                </div>
                             </div>
 
                             <div class="right-top-container">
@@ -132,11 +138,19 @@
                                     alt=""
                                 />
 
-                                <img
-                                    class="img-bottom img-woman"
-                                    src="./images/desktop/woman.png"
-                                    alt=""
-                                />
+                                <div class="thumb-woman">
+                                    <img
+                                        class="img-bottom img-woman"
+                                        src="./images/desktop/woman.png"
+                                        alt=""
+                                    />
+                                    <div
+                                        class="label-woman label-big-text label-text"
+                                    >
+                                        See my goal?
+                                    </div>
+                                </div>
+
                                 <img
                                     class="img-bottom img-windows"
                                     src="./images/desktop/windows.png"
@@ -178,7 +192,9 @@
                                 with shared screens and cool design systems for
                                 Figma
                             </p>
-                            <button class="about-btn">Learn more</button>
+                            <button class="about-btn" type="button">
+                                Learn more
+                            </button>
                         </li>
 
                         <li class="about-item">
@@ -196,7 +212,9 @@
                                 Identify qualified customers with easy-to-use
                                 live chat messaging and AI-based Sales Bot
                             </p>
-                            <button class="about-btn">Learn more</button>
+                            <button class="about-btn" type="button">
+                                Learn more
+                            </button>
                         </li>
 
                         <li class="about-item">
@@ -213,7 +231,9 @@
                                 with shared screens and cool design systems for
                                 Figma
                             </p>
-                            <button class="about-btn">Learn more</button>
+                            <button class="about-btn" type="button">
+                                Learn more
+                            </button>
                         </li>
 
                         <li class="about-item">
@@ -230,7 +250,9 @@
                                 customize outlined stroke to more bolder or
                                 lighter
                             </p>
-                            <button class="about-btn">Learn more</button>
+                            <button class="about-btn" type="button">
+                                Learn more
+                            </button>
                         </li>
                     </ul>
                 </div>
@@ -289,7 +311,7 @@
 
                             <button class="price-button">Try for free</button>
                         </li>
-                        <li class="price-item item-after">
+                        <li class="price-item price-item-choice">
                             <h3 class="price-title">👤 Individual</h3>
                             <p class="price-plan">
                                 <span class="plan-span">$24</span> / month
@@ -547,8 +569,6 @@
                                 class="footer-area-message footer-input-style"
                                 name=""
                                 id=""
-                                cols="30"
-                                rows="10"
                                 placeholder="Leave your message"
                             ></textarea>
                             <button class="form-button" type="submit">
