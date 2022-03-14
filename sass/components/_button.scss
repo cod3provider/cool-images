@@ -1,18 +1,21 @@
 %button {
-    display: inline-flex;
-    border-radius: 16px;
-    font-size: 18px;
-    line-height: 1.78;
-    padding: 8px 16px;
-
-    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+
+    padding: 8px 16px;
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.78;
+    transition: all 250ms linear;
+
     cursor: pointer;
 
     &:hover,
     &:focus {
-        background: #6c5ce7;
+        background-color: #6c5ce7;
         color: #ffffff;
         border: none;
     }

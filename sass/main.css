@@ -55,24 +55,29 @@ img {
   color: #2d3436;
 }
 
-.about-btn {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  border-radius: 16px;
-  font-size: 18px;
-  line-height: 1.78;
-  padding: 8px 16px;
-  padding: 8px 16px;
+.header-btn, .hero-btn, .about-btn, .price-button, .form-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  padding: 8px 16px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.78;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
   cursor: pointer;
 }
 
-.about-btn:hover, .about-btn:focus {
-  background: #6c5ce7;
+.header-btn:hover, .hero-btn:hover, .about-btn:hover, .price-button:hover, .form-button:hover, .header-btn:focus, .hero-btn:focus, .about-btn:focus, .price-button:focus, .form-button:focus {
+  background-color: #6c5ce7;
   color: #ffffff;
   border: none;
 }
@@ -181,25 +186,14 @@ img {
 
 .header-btn {
   width: 167px;
-  padding: 8px 16px;
-  font-weight: bold;
   font-size: 24px;
   line-height: 1.5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   letter-spacing: 0.25px;
   color: #ffffff;
-  text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
   background: #6c5ce7;
   border-radius: 50px;
   border: none;
+  text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
 }
 
 .header-btn:hover, .header-btn:focus {
@@ -380,20 +374,8 @@ img {
 .hero-btn {
   width: 100%;
   height: 82px;
-  padding: 8px 16px;
-  font-weight: bold;
   font-size: 32px;
-  line-height: 48px;
-  /* or 150% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  line-height: 1.5;
   letter-spacing: -0.5px;
   color: #ffffff;
   background: #6c5ce7;
@@ -597,7 +579,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   letter-spacing: -0.5px;
-  /* 32% Gray Light */
   color: #adadad;
 }
 
@@ -789,36 +770,17 @@ img {
 .price-button {
   width: 306px;
   height: 64px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin: 0 auto;
   margin-top: auto;
-  padding: 8px 16px;
   border: 1px solid #adadad;
-  border-radius: 16px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 1.78;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   letter-spacing: 0.2px;
   color: #6c5ce7;
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
 }
 
 .price-button:hover, .price-button:focus {
   font-size: 24px;
   line-height: 1.5;
   letter-spacing: 0.25px;
-  color: #ffffff;
-  background-color: #6c5ce7;
 }
 
 .footer {
@@ -860,8 +822,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: background-color 250ms linear;
-  transition: background-color 250ms linear;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
 }
 
 .footer-social-item:hover,
@@ -980,6 +942,8 @@ img {
   background-color: #f0f0f0;
   border-radius: 16px;
   border: none;
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
 }
 
 .footer-area-message {
@@ -987,8 +951,6 @@ img {
   height: 80px;
   padding: 16px;
   resize: none;
-  -webkit-transition: color 250ms linear;
-  transition: color 250ms linear;
 }
 
 .footer-area-message:hover, .footer-area-message:focus {
@@ -1027,26 +989,14 @@ img {
 .form-button {
   width: 170px;
   height: 80px;
-  padding: 8px 16px;
-  font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   letter-spacing: 0.25px;
   color: #ffffff;
+  background-color: #6c5ce7;
   text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
-  background: #6c5ce7;
   -webkit-box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
           box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
-  border-radius: 16px;
   border: none;
 }
 

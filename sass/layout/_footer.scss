@@ -30,7 +30,7 @@
     display: flex;
     justify-content: center;
 
-    transition: background-color 250ms linear;
+    transition: all 250ms linear;
 }
 
 .footer-social-item:hover,
@@ -149,11 +149,11 @@
 .footer-input-style {
     font-size: 18px;
     line-height: 1.78;
-    // background-color: #c2c2c2;
-    // opacity: 0.24;
+
     background-color: #f0f0f0;
     border-radius: 16px;
     border: none;
+    transition: all 250ms linear;
 }
 
 .footer-area-message {
@@ -162,8 +162,6 @@
 
     padding: 16px;
     resize: none;
-
-    transition: color 250ms linear;
 
     &:hover,
     &:focus {
@@ -186,29 +184,22 @@
 }
 
 .form-button {
+    @extend %button;
+
     width: 170px;
     height: 80px;
-    padding: 8px 16px;
 
-    font-weight: 700;
     font-size: 24px;
     line-height: 1.5;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
     letter-spacing: 0.25px;
-
     color: #ffffff;
-
+    background-color: #6c5ce7;
     text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16),
         0px 4px 8px rgba(38, 50, 56, 0.08);
 
-    background: #6c5ce7;
-
     box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1),
         0px 16px 32px rgba(38, 50, 56, 0.08);
-    border-radius: 16px;
     border: none;
 
     &:hover,
