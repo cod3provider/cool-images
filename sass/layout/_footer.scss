@@ -91,16 +91,17 @@
     letter-spacing: 0.25px;
 
     color: #2d3436;
-}
 
-.link-decoration {
-    text-decoration: underline;
+    &:hover,
+    &:focus {
+        text-decoration: underline;
+    }
 }
 
 .mail-link {
     font-weight: 700;
     font-size: 32px;
-    line-height: 1, 5;
+    line-height: 1.5;
 
     // display: flex;
     // align-items: flex-end;
@@ -132,8 +133,8 @@
 
     color: #2d3436;
 
-    &:hover,
-    &:focus {
+    // &:hover,
+     &:focus {
         border: 2px solid #6c5ce7;
 
         letter-spacing: 0.2px;
@@ -163,13 +164,10 @@
     padding: 16px;
     resize: none;
 
-    &:hover,
     &:focus {
         border: 2px solid #6c5ce7;
-
-        letter-spacing: 0.2px;
-
         color: #6c5ce7;
+        letter-spacing: 0.2px;
 
         &::placeholder {
             color: #6c5ce7;
@@ -195,11 +193,11 @@
     letter-spacing: 0.25px;
     color: #ffffff;
     background-color: #6c5ce7;
-    text-shadow: 0px 2px 4px rgba(38, 50, 56, 0.16),
-        0px 4px 8px rgba(38, 50, 56, 0.08);
+    text-shadow: 0 2px 4px rgba(38, 50, 56, 0.16),
+        0 4px 8px rgba(38, 50, 56, 0.08);
 
-    box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1),
-        0px 16px 32px rgba(38, 50, 56, 0.08);
+    box-shadow: 0 8px 24px rgba(38, 50, 56, 0.1),
+        0 16px 32px rgba(38, 50, 56, 0.08);
     border: none;
 
     &:hover,
@@ -207,5 +205,25 @@
         color: #858585;
         background-color: transparent;
         border: 1px solid #adadad;
+    }
+}
+
+.footer-form-label {
+    position: relative;
+}
+
+.footer-form-icon {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+
+    width: 40px;
+    height: 40px;
+
+    transition: all 250ms linear;
+
+    .footer-input-style:focus + & {
+        filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4)
+            brightness(1);
     }
 }

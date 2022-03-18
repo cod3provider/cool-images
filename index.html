@@ -1,583 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cool</title>
+<head>
+	<meta charset="UTF-8"/>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+	<title>Cool</title>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;700&display=swap"
-            rel="stylesheet"
-        />
+	<link href="https://fonts.googleapis.com" rel="preconnect">
+	<link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+	<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;700&display=swap"
+			rel="stylesheet">
 
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />
+	<link
+			crossorigin="anonymous"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			referrerpolicy="no-referrer"
+			rel="stylesheet">
 
-        <link rel="stylesheet" href="./sass/main.css" />
-    </head>
-    <body>
-        <header class="header">
-            <div class="container header-container">
-                <nav class="main-nav">
-                    <img
-                        class="image-logo"
-                        src="/images/icon-layout.svg"
-                        alt=""
-                    />
-                    <a href="" class="logo-link">Grid</a>
+	<link href="./sass/main.css" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+	<div class="container header-container">
+		<nav class="main-nav">
+			<img alt="logo icon"
+				 class="image-logo"
+				 src="/images/icon-layout.svg">
+			<a class="logo-link" href="./index.html">Grid</a>
 
-                    <!-- <svg class="logo-icon" width="64" height="64">
-                            <use href="./images/icon-layout2.svg"></use>
-                        </svg> -->
+			<ul class="header-list">
+				<li class="header-item">
+					<a class="header-link" href="">How it works</a>
+				</li>
 
-                    <ul class="header-list">
-                        <li class="header-item">
-                            <a class="header-link" href="">How it works</a>
-                        </li>
+				<li class="header-item">
+					<a class="header-link" href="">Who we are</a>
+				</li>
 
-                        <li class="header-item">
-                            <a class="header-link" href="">Who we are</a>
-                        </li>
+				<li class="header-item">
+					<a class="header-link" href="">What we do</a>
+				</li>
 
-                        <li class="header-item">
-                            <a class="header-link" href="">What we do</a>
-                        </li>
+				<li class="header-item">
+					<a class="header-link" href="">Contact us</a>
+				</li>
+			</ul>
 
-                        <li class="header-item">
-                            <a class="header-link" href="">Contact us</a>
-                        </li>
-                    </ul>
-                </nav>
+			<button class="menu-btn">
+				<img alt="burger-menu icon"
+					 class="menu-icon"
+					 src="./images/mobile/icon-menu.svg">
+			</button>
+		</nav>
 
-                <button class="header-btn">Sign In</button>
-            </div>
-        </header>
+		<button class="header-btn" type="button">Sign In</button>
+	</div>
+</header>
 
-        <main>
-            <section class="section hero-section">
-                <div class="absolute-container"></div>
-                <div class="container hero-container">
-                    <h1 class="hero">
-                        Combine&nbsp;
-                        <span class="hero-span">fine&nbsp; </span>images
-                    </h1>
+<main>
+	<section class="section hero-section">
+		<div class="absolute-container"></div>
+		<div class="mobile-absolute-container"></div>
+		<div class="container hero-container">
+			<h1 class="hero">
+				Combine&nbsp;
+				<span class="hero-span hero-span-visibility">fine&nbsp;</span>
+				<span class="hero-span-visibility">images</span>
 
-                    <p class="hero-text">To represent a product</p>
+				<span class="hero-span-mobile hero-span-after">Cool&nbsp;</span>
+				<span class="hero-span-mobile">images</span>
+			</h1>
+			<p class="hero-text hero-text-visibility">To represent a product</p>
+			<p class="hero-mobile-text">To create any grid by scaling and resizing</p>
+			<button class="hero-mobile-btn" type="button">
+				<img class="mobile-btn-icon" src="/images/mobile/icon-arrow-down.svg" alt="arrow down icon">
+			</button>
 
-                    <div class="flex-container">
-                        <div class="left-container">
-                            <p class="text text-left">
-                                Use mixed grid with imagery, replace with your
-                                own photos and descriptions
-                            </p>
+			<div class="flex-container">
+				<div class="left-container">
+					<p class="text text-left">
+						Use mixed grid with imagery, replace with your
+						own photos and descriptions
+					</p>
 
-                            <div class="thumb-ball">
-                                <img
-                                    class="img-ball"
-                                    src="./images/desktop/ball.png"
-                                    alt=""
-                                />
+					<div class="thumb-ball">
+						<img alt="glass bowl" class="img-ball" src="./images/desktop/ball.png">
+						<div class="label-ball label-text">
+							We aimed to deliver HQ templates for Figma
+						</div>
+						<div class="label-ball-post label-text">
+							Used by 123 people
+						</div>
+					</div>
 
-                                <div class="label-ball label-text">
-                                    We aimed to deliver HQ templates for Figma
-                                </div>
-                                <div class="label-ball-post label-text">
-                                    Used by 123 people
-                                </div>
-                            </div>
+					<button class="hero-btn" type="button">Learn more</button>
+				</div>
 
-                            <button class="hero-btn">Learn more</button>
-                        </div>
+				<div class="right-container">
+					<div class="thumb-man">
+						<img alt="man in office"
+							 class="img-man"
+							 src="./images/desktop/man.png">
+						<div class="label-man label-big-text label-text">
+							Consider it done!
+						</div>
+					</div>
 
-                        <div class="right-container">
-                            <div class="thumb-man">
-                                <img
-                                    class="img-man"
-                                    src="./images/desktop/man.png"
-                                    alt=""
-                                />
-                                <div
-                                    class="label-man label-big-text label-text"
-                                >
-                                    Consider it done!
-                                </div>
-                            </div>
+					<div class="right-top-container">
+						<p class="text text-right">
+							This is multipurpose grid, it fits for
+							portfolio, services or agency web site
+						</p>
 
-                            <div class="right-top-container">
-                                <p class="text text-right">
-                                    This is multipurpose grid, it fits for
-                                    portfolio, services or agency web site
-                                </p>
+						<div class="horizontal-container">
+							<img alt="letter 'A'"
+								 class="img-little"
+								 src="./images/desktop/letter.png">
 
-                                <div class="horizontal-container">
-                                    <img
-                                        class="img-little"
-                                        src="./images/desktop/letter.png"
-                                        alt=""
-                                    />
-                                    <img
-                                        class="img-little"
-                                        src="./images/desktop/shoes.png"
-                                        alt=""
-                                    />
-                                </div>
-                            </div>
+							<img alt="running shoes 'Nike'"
+								 class="img-little"
+								 src="./images/desktop/shoes.png">
+						</div>
+					</div>
 
-                            <div class="right-bottom-container">
-                                <img
-                                    class="img-bottom img-book"
-                                    src="./images/desktop/book.png"
-                                    alt=""
-                                />
+					<div class="right-bottom-container">
+						<img alt="book on the desk"
+							 class="img-bottom img-book"
+							 src="./images/desktop/book.png">
 
-                                <div class="thumb-woman">
-                                    <img
-                                        class="img-bottom img-woman"
-                                        src="./images/desktop/woman.png"
-                                        alt=""
-                                    />
-                                    <div
-                                        class="label-woman label-big-text label-text"
-                                    >
-                                        See my goal?
-                                    </div>
-                                </div>
+						<div class="thumb-woman">
+							<img alt="reflective woman"
+								 class="img-bottom img-woman"
+								 src="./images/desktop/woman.png">
+							<div class="label-woman label-big-text label-text">
+								See my goal?
+							</div>
+						</div>
 
-                                <img
-                                    class="img-bottom img-windows"
-                                    src="./images/desktop/windows.png"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+						<img alt="windows"
+							 class="img-bottom img-windows"
+							 src="./images/desktop/windows.png">
+					</div>
+				</div>
+			</div>
 
-            <section class="about">
-                <div class="container about-container">
-                    <h2 class="title visually-hidden">About Us</h2>
-                    <p class="post-title">
-                        Delivering good designs since 1954&nbsp;🚚💨
-                    </p>
-                    <p class="about-text">
-                        We’re the first multi-purpose design kit solutions for
-                        businesses. We help you bridge gaps between your
-                    </p>
+			<div class="mobile-flex-container">
+				<div class="mobile-left-container">
+					<div class="mobile-thumb-pomade">
+						<img src="./images/mobile/card-1.png" alt="pomade">
+						<div class="mobile-label-pomade">Lipstick for business</div>
+						<div class="mobile-label-pomade-small">Used by 123 people</div>
+					</div>
+					<div class="mobile-thumb-flower">
+						<img class="mobile-img-flower" src="./images/mobile/card-2.png" alt="flower">
+						<div class="label-flower">Flowering</div>
+					</div>
+				</div>
+				<div class="mobile-right-container">
+					<div class="mobile-top-container">
+						<div class="mobile-man-thumb">
+							<img class="mobile-man" src="./images/mobile/card-3.png" alt="man in office">
+							<div class="mobile-label-man">No problems!</div>
+						</div>
 
-                    <ul class="about-list">
-                        <li class="about-item">
-                            <!-- <svg
-                                class="about-icon icon-pink"
-                                width="56"
-                                height="56"
-                            >
-                                <use href="./img/icon-phone-call.svg"></use>
-                            </svg> -->
-                            <div class="about-icon icon-pink"></div>
-                            <!-- <img class="about-icon icon-pink" alt="" /> -->
-                            <!-- src="./images/phone-call-svgrepo-com.svg" width="56" -->
-                            <!-- height="56" alt=""> -->
-                            <h3 class="about-title">Support</h3>
-                            <p class="text about-text">
-                                Delivering faster and more personalized support
-                                with shared screens and cool design systems for
-                                Figma
-                            </p>
-                            <button class="about-btn" type="button">
-                                Learn more
-                            </button>
-                        </li>
+						<div class="mobile-alarm-thumb">
+							<img src="./images/mobile/card-6.png" alt="alarm">
+							<div class="mobile-label-alarm">Your wakeuper</div>
+						</div>
+					</div>
 
-                        <li class="about-item">
-                            <svg
-                                class="about-icon icon-blue"
-                                width="56"
-                                height="56"
-                            >
-                                <use
-                                    href="./images/pie-chart-svgrepo-com.svg"
-                                ></use>
-                            </svg>
-                            <h3 class="about-title">Sales growth</h3>
-                            <p class="text about-text">
-                                Identify qualified customers with easy-to-use
-                                live chat messaging and AI-based Sales Bot
-                            </p>
-                            <button class="about-btn" type="button">
-                                Learn more
-                            </button>
-                        </li>
+					<div class="mobile-bottom-container">
+						<div class="mobile-bottom-left-container">
+							<div class="mobile-flower-pot-thumb">
+								<img src="./images/mobile/card-4.png" alt="">
+								<div class="mobile-flower-pot-label">Caption here</div>
+							</div>
 
-                        <li class="about-item">
-                            <svg
-                                class="about-icon icon-purple"
-                                width="56"
-                                height="56"
-                            >
-                                <use href></use>
-                            </svg>
-                            <h3 class="about-title">Coponents-driven</h3>
-                            <p class="text about-text">
-                                Delivering faster and more personalized support
-                                with shared screens and cool design systems for
-                                Figma
-                            </p>
-                            <button class="about-btn" type="button">
-                                Learn more
-                            </button>
-                        </li>
+							<div class="mobile-desk-thumb">
+								<img src="./images/mobile/card-5.png" alt="man about the desk">
+								<div class="mobile-desk-label">The Process</div>
+							</div>
+						</div>
 
-                        <li class="about-item">
-                            <svg
-                                class="about-icon icon-green"
-                                width="56"
-                                height="56"
-                            >
-                                <use href></use>
-                            </svg>
-                            <h3 class="about-title">Swap the icon</h3>
-                            <p class="text about-text">
-                                You can toggle to any icon within Instances and
-                                customize outlined stroke to more bolder or
-                                lighter
-                            </p>
-                            <button class="about-btn" type="button">
-                                Learn more
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+						<div class="mobile-bottom-right-container">
+							<div class="mobile-abstraction-thumb">
+								<img src="./images/mobile/card-7.png" alt="abstraction">
+								<div class="mobile-label-abstraction">You can set
+									centered text</div>
+								<div class="mobile-label-abstraction-small">And make visible bottom caption</div>
+							</div>
+							<button class="mobile-hero-btn" type="button">Learn more</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-            <section class="section price">
-                <div class="container">
-                    <h2 class="title">Affordable pricing</h2>
-                    <p class="price-text">
-                        Bill me
-                        <span class="price-span">&nbsp;monthly&nbsp;</span> •
-                        yearly
-                    </p>
+	<section class="about">
+		<div class="container about-container">
+			<h2 class="title visually-hidden">About Us</h2>
+			<p class="post-title">
+				Delivering good designs since 1954&nbsp;🚚💨
+			</p>
+			<p class="about-text">
+				We’re the first multi-purpose design kit solutions for
+				businesses. We help you bridge gaps between your
+			</p>
 
-                    <ul class="price-list">
-                        <li class="price-item">
-                            <h3 class="price-title">Like a pussy</h3>
-                            <p class="price-plan">
-                                <span class="plan-span">Free</span> / forever
-                            </p>
+			<ul class="about-list">
+				<li class="about-item">
+					<div class="about-icon icon-pink"></div>
+					<h3 class="about-title">Support</h3>
+					<p class="text about-text">
+						Delivering faster and more personalized support
+						with shared screens and cool design systems for
+						Figma
+					</p>
+					<button class="about-btn" type="button">
+						Learn more
+					</button>
+				</li>
 
-                            <ul class="features-list">
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-gray"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Components-driven system
-                                    </p>
-                                </li>
+				<li class="about-item">
+					<svg class="about-icon icon-blue"
+						 height="56"
+						 width="56">
+						<use href="./images/pie-chart-svgrepo-com.svg"></use>
+					</svg>
+					<h3 class="about-title">Sales growth</h3>
+					<p class="text about-text">
+						Identify qualified customers with easy-to-use
+						live chat messaging and AI-based Sales Bot
+					</p>
+					<button class="about-btn" type="button">
+						Learn more
+					</button>
+				</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-gray"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Sales-boosting landing pages
-                                    </p>
-                                </li>
+				<li class="about-item">
+					<svg class="about-icon icon-purple"
+						 height="56"
+						 width="56">
+						<use href></use>
+					</svg>
+					<h3 class="about-title">Coponents-driven</h3>
+					<p class="text about-text">
+						Delivering faster and more personalized support
+						with shared screens and cool design systems for
+						Figma
+					</p>
+					<button class="about-btn" type="button">
+						Learn more
+					</button>
+				</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-gray"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Awesome Feather icons pack
-                                    </p>
-                                </li>
-                            </ul>
+				<li class="about-item">
+					<svg class="about-icon icon-green"
+						 height="56"
+						 width="56">
+						<use href></use>
+					</svg>
+					<h3 class="about-title">Swap the icon</h3>
+					<p class="text about-text">
+						You can toggle to any icon within Instances and
+						customize outlined stroke to more bolder or
+						lighter
+					</p>
+					<button class="about-btn" type="button">
+						Learn more
+					</button>
+				</li>
+			</ul>
+		</div>
+	</section>
 
-                            <button class="price-button">Try for free</button>
-                        </li>
-                        <li class="price-item price-item-choice">
-                            <h3 class="price-title">👤 Individual</h3>
-                            <p class="price-plan">
-                                <span class="plan-span">$24</span> / month
-                            </p>
+	<section class="section price">
+		<div class="container">
+			<h2 class="title">Affordable pricing</h2>
+			<p class="price-text">
+				Bill me
+				<span class="price-span">&nbsp;monthly&nbsp;</span> •
+				yearly
+			</p>
 
-                            <ul>
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-yellow"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Components-driven system
-                                    </p>
-                                </li>
+			<ul class="price-list">
+				<li class="price-item">
+					<h3 class="price-title">Like a pussy</h3>
+					<p class="price-plan">
+						<span class="plan-span">Free</span> / forever
+					</p>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-yellow"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Sales-boosting landing pages
-                                    </p>
-                                </li>
+					<ul class="features-list">
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-gray"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Components-driven system
+							</p>
+						</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-yellow"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Awesome Feather icons pack
-                                    </p>
-                                </li>
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-gray"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Sales-boosting landing pages
+							</p>
+						</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-yellow"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Themed into 3 different styles
-                                    </p>
-                                </li>
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-gray"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Awesome Feather icons pack
+							</p>
+						</li>
+					</ul>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-yellow"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Will help to learn Figma
-                                    </p>
-                                </li>
-                            </ul>
+					<button class="price-button" type="button">Try for free</button>
+				</li>
+				<li class="price-item price-item-choice">
+					<div class="test-div">
+						<h3 class="price-title">👤 Individual</h3>
+						<p class="price-plan">
+							<span class="plan-span">$24</span> / month
+						</p>
 
-                            <button class="price-button" type="button">
-                                Regular license
-                            </button>
-                        </li>
-                        <li class="price-item">
-                            <h3 class="price-title">👥 Corporate</h3>
-                            <p class="price-plan">
-                                <span class="plan-span">$12</span> / editor
-                            </p>
+						<ul>
+							<li class="features-item">
+								<img alt="check icon"
+									 class="price-icon-check price-icon-yellow"
+									 src="./images/icon-check.svg">
+								<p class="features-text">
+									Components-driven system
+								</p>
+							</li>
 
-                            <ul>
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-mint"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Components-driven system
-                                    </p>
-                                </li>
+							<li class="features-item">
+								<img alt="check icon"
+									 class="price-icon-check price-icon-yellow"
+									 src="./images/icon-check.svg">
+								<p class="features-text">
+									Sales-boosting landing pages
+								</p>
+							</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-mint"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Sales-boosting landing pages
-                                    </p>
-                                </li>
+							<li class="features-item">
+								<img alt="check icon"
+									 class="price-icon-check price-icon-yellow"
+									 src="./images/icon-check.svg">
+								<p class="features-text">
+									Awesome Feather icons pack
+								</p>
+							</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-mint"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Awesome Feather icons pack
-                                    </p>
-                                </li>
+							<li class="features-item">
+								<img alt="check icon"
+									 class="price-icon-check price-icon-yellow"
+									 src="./images/icon-check.svg">
+								<p class="features-text">
+									Themed into 3 different styles
+								</p>
+							</li>
 
-                                <li class="features-item">
-                                    <img
-                                        class="price-icon-check price-icon-mint"
-                                        src="./images/icon-check.svg"
-                                        alt=""
-                                    />
-                                    <p class="features-text">
-                                        Themed into 3 different styles
-                                    </p>
-                                </li>
-                            </ul>
+							<li class="features-item">
+								<img alt="check icon"
+									 class="price-icon-check price-icon-yellow"
+									 src="./images/icon-check.svg">
+								<p class="features-text">
+									Will help to learn Figma
+								</p>
+							</li>
+						</ul>
 
-                            <button class="price-button">
-                                Extended license
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </main>
+						<button class="price-button" type="button">
+							Regular license
+						</button>
+					</div>
+				</li>
 
-        <footer class="footer">
-            <div class="container footer-container">
-                <div class="footer-wrap footer-wrap-left">
-                    <div class="footer-social">
-                        <p class="footer-text footer-text-margin">follow us</p>
-                        <ul class="footer-social-list">
-                            <li class="footer-social-item">
-                                <a class="footer-social-link" href="">
-                                    <img
-                                        src="/images/icon-facebook.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a class="footer-social-link" href="">
-                                    <img
-                                        src="./images/icon-linkedin.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a class="footer-social-link" href="">
-                                    <img src="./images/icon-slack.svg" alt="" />
-                                </a>
-                            </li>
-                            <li class="footer-social-item">
-                                <a class="footer-social-link" href="">
-                                    <img
-                                        src="./images/icon-twitter.svg"
-                                        alt=""
-                                    />
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+				<li class="price-item">
+					<h3 class="price-title">👥 Corporate</h3>
+					<p class="price-plan">
+						<span class="plan-span">$12</span> / editor
+					</p>
 
-                    <div class="footer-info">
-                        <p class="footer-text footer-text-position">
-                            information
-                        </p>
-                        <ul class="footer-info-list">
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    About Fapster app
-                                </a>
-                            </li>
+					<ul>
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-mint"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Components-driven system
+							</p>
+						</li>
 
-                            <li class="footer-info-item">
-                                <a
-                                    class="footer-info-link link-decoration"
-                                    href="#"
-                                >
-                                    Onhovered / Active
-                                </a>
-                            </li>
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-mint"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Sales-boosting landing pages
+							</p>
+						</li>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    We are hiring!
-                                </a>
-                            </li>
+						<li class="features-item">
+							<img alt="check icon"
+								 class="price-icon-check price-icon-mint"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Awesome Feather icons pack
+							</p>
+						</li>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    Get in Touch
-                                </a>
-                            </li>
+						<li class="features-item">
+							<img alt="icon check"
+								 class="price-icon-check price-icon-mint"
+								 src="./images/icon-check.svg">
+							<p class="features-text">
+								Themed into 3 different styles
+							</p>
+						</li>
+					</ul>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    Privacy Policy
-                                </a>
-                            </li>
+					<button class="price-button" type="button">
+						Extended license
+					</button>
+				</li>
+			</ul>
+		</div>
+	</section>
+</main>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    Resources
-                                </a>
-                            </li>
+<footer class="footer">
+	<div class="container footer-container">
+		<div class="footer-wrap footer-wrap-left">
+			<div class="footer-social">
+				<p class="footer-text footer-text-margin">follow us</p>
+				<ul class="footer-social-list">
+					<li class="footer-social-item">
+						<a class="footer-social-link" href="">
+							<img alt="facebook icon" src="/images/icon-facebook.svg">
+						</a>
+					</li>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    Things We Like
-                                </a>
-                            </li>
+					<li class="footer-social-item">
+						<a class="footer-social-link" href="">
+							<img alt="linkedin icon" src="./images/icon-linkedin.svg">
+						</a>
+					</li>
 
-                            <li class="footer-info-item">
-                                <a class="footer-info-link" href="#">
-                                    Terms of Service
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+					<li class="footer-social-item">
+						<a class="footer-social-link" href="">
+							<img alt="slack icon" src="./images/icon-slack.svg">
+						</a>
+					</li>
 
-                <div class="footer-wrap">
-                    <div class="footer-follow">
-                        <p class="footer-text">follow us</p>
-                        <a class="mail-link" href="mailto:hello@fapsterapp.com">
-                            hello@fapsterapp.com
-                        </a>
-                    </div>
+					<li class="footer-social-item">
+						<a class="footer-social-link" href="">
+							<img alt="twitter icon" src="./images/icon-twitter.svg">
+						</a>
+					</li>
+				</ul>
+			</div>
 
-                    <form class="footer-form" action="">
-                        <p class="footer-text footer-mail-position">
-                            keep in touch
-                        </p>
-                        <div class="form-wrapper">
-                            <label for="">
-                                <input
-                                    class="footer-input footer-input-style"
-                                    id="name"
-                                    type="text"
-                                    placeholder="Your name"
-                                />
-                            </label>
-                            <label for="">
-                                <input
-                                    class="footer-input footer-input-style"
-                                    id="email"
-                                    type="email"
-                                    placeholder="E-mail"
-                                />
-                            </label>
-                            <textarea
-                                class="footer-area-message footer-input-style"
-                                name=""
-                                id=""
-                                placeholder="Leave your message"
-                            ></textarea>
-                            <button class="form-button" type="submit">
-                                SEND
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </footer>
-    </body>
+			<div class="footer-info">
+				<p class="footer-text footer-text-position">
+					information
+				</p>
+				<ul class="footer-info-list">
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							About Fapster app
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link link-decoration" href="#">
+							Onhovered / Active
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							We are hiring!
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							Get in Touch
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							Privacy Policy
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							Resources
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							Things We Like
+						</a>
+					</li>
+
+					<li class="footer-info-item">
+						<a class="footer-info-link" href="#">
+							Terms of Service
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer-wrap">
+			<div class="footer-follow">
+				<p class="footer-text">follow us</p>
+				<a class="mail-link" href="mailto:hello@fapsterapp.com">
+					hello@fapsterapp.com
+				</a>
+			</div>
+
+			<form action="" class="footer-form">
+				<p class="footer-text footer-mail-position">
+					keep in touch
+				</p>
+				<div class="form-wrapper">
+					<label class="footer-form-label" for="">
+						<input class="footer-input footer-input-style"
+							   id="name"
+							   placeholder="Your name"
+							   type="text">
+						<img alt="user icon"
+							 class="footer-form-icon"
+							 src="./images/desktop/icon-user.svg">
+					</label>
+
+					<label class="footer-form-label" for="">
+						<input class="footer-input footer-input-style"
+							   id="email"
+							   placeholder="E-mail"
+							   type="email">
+						<img alt="mail icon"
+							 class="footer-form-icon"
+							 src="./images/desktop/icon-mail.svg">
+					</label>
+
+					<label class="footer-form-label" for="">
+                                <textarea class="footer-area-message footer-input-style"
+										  id=""
+										  name=""
+										  placeholder="Leave your message"></textarea>
+						<img alt="edit icon"
+							 class="footer-form-icon"
+							 src="./images/desktop/icon-edit.svg">
+					</label>
+
+					<button class="form-button" type="submit">SEND</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</footer>
+</body>
 </html>
