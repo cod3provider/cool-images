@@ -1,40 +1,35 @@
 .post-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    color: #2D3436;
+
+    @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
     font-weight: bold;
     font-size: 32px;
     line-height: 1.5;
-
-    display: flex;
-    align-items: center;
     letter-spacing: -0.5px;
-
     color: #2d3436;
+    }
+
+    @media screen and (max-width: 767px) {
+        width: 330px;
+    }
 }
 
-.about-list {
-    display: flex;
-    margin-top: 40px;
+.span-about-color {
+    @media screen and (max-width: 767px) {
+        color: #6b5ce7;
+    }
 }
 
-.about-item {
-    width: 270px;
-}
-
-.about-item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.about-title {
-    margin-top: 24px;
-
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 1.5;
-
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.25px;
-
-    color: #2d3436;
+.span-emoji {
+    @media screen and (max-width: 767px) {
+        display: none;
+    }
 }
 
 .about-text {
@@ -42,16 +37,90 @@
     margin-bottom: 8px;
 }
 
+.about-main-text {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.78;
+    color: #2D3436;
+
+    @media screen and (min-width: 768px) {
+        width: 950px;
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: -0.25px;
+    }
+}
+
+.about-description-text {
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 1.78;
+    color: #5C5C5C;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 18px;
+        color: #2D3436;
+    }
+}
+
+.about-list {
+    display: flex;
+    margin-top: 40px;
+
+    @media screen and (max-width: 1199px) {
+        flex-wrap: wrap;
+        display: none;
+    }
+}
+
+.mobile-about-list {
+    display: flex;
+    margin-top: 40px;
+    margin: -40px -30px;
+}
+
+.about-item {
+    width: 150px;
+    margin: 0 30px;
+    padding: 40px 0;
+    flex-basis: calc (100 / 2);
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+    }
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.about-list-title {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    color: #2d3436;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 24px;
+    }
+}
+
 .about-btn {
     @extend %button;
-
-    font-weight: bold;
 
     display: flex;
     align-items: center;
     text-align: center;
+    font-weight: bold;
     letter-spacing: 0.2px;
-
     color: #6c5ce7;
     border: 1px solid #adadad;
     background-color: transparent;

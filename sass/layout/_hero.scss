@@ -10,49 +10,40 @@
 
 .absolute-container {
     position: relative;
+
     @media screen and (max-width: 767px) {
         display: none;
     }
+}
 
-    @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
-        .absolute-container::after {
-            content: " ";
-            position: absolute;
-            left: 50%;
-            bottom: -262.91px;
-            width: 1376.03px;
-            height: 767.91px;
+    .absolute-container::after {
+        content: " ";
+        position: absolute;
+        left: 50%;
+        bottom: -262.91px;
+        width: 1376.03px;
+        height: 767.91px;
 
-            background-color: #FFEAA7;
-            border-radius: 50px;
-            transform: rotate(-45deg);
-            overflow: hidden;
-            z-index: -1;
-
-            //bottom: -144.44px;
-            //width: 757.27px;
-            //height: 422.6px;
-            //
-            //background: #FDCB6E;
-            //opacity: 0.4;
-            //box-shadow: -37.8165px 0px 50.423px rgba(0, 0, 0, 0.16);
-            //border-radius: 54.4825px;
-            //transform: rotate(-45deg);
-        }
-
-        //width: 778px;
-        //height: 722px;
-        //position: absolute;
-        //top: -75px;
-        //right: -110px;
-        //background-image: url(../../images/desktop/rectangle.png);
-        //background-repeat: no-repeat;
-        //opacity: 0.4;
-        //overflow-x: hidden;
-        //background-size: auto auto;
-        //z-index: -10;
+        background-color: #FFEAA7;
+        border-radius: 50px;
+        transform: rotate(-45deg);
+        z-index: -1;
+        opacity: 0.4;
     }
+
+    //width: 778px;
+    //height: 722px;
+    //position: absolute;
+    //top: -75px;
+    //right: -110px;
+    //background-image: url(../../images/desktop/rectangle.png);
+    //background-repeat: no-repeat;
+    //opacity: 0.4;
+    //overflow-x: hidden;
+    //background-size: auto auto;
+    //z-index: -10;
 }
 
 .mobile-absolute-container {
@@ -106,6 +97,32 @@
         font-size: 96px;
         line-height: 1.08;
         letter-spacing: -3px;
+    }
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-container::before {
+    content: " ";
+    position: absolute;
+    background-image: url("../../images/mobile/hero-wave.png");
+    background-repeat: repeat-x;
+    //background-size: cover;
+    //background: #FFEAA7;
+    //transform: matrix(0.57, -0.69, 1.08, 0.44, 0, 0);
+
+    background-image: url(../../images/mobile/hero-wave.png);
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 129px;
+    z-index: -3;
+
+    @media screen and (min-width: 768px) {
+        display: none;
     }
 }
 
@@ -171,7 +188,7 @@
     content: " ";
     position: absolute;
     right: -16px;
-    top: 54px;
+    top: 0;
     width: 143px;
     height: 195px;
     background-image: url(../../images/mobile/mobile-dots.png);
