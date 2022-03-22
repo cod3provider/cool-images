@@ -40,7 +40,7 @@
         position: absolute;
         width: 631.69px;
         height: 207.75px;
-        right: -185.91000000000003px;
+        left: 0;
         bottom: -287.25px;
         background: #FDCB6E;
         mix-blend-mode: multiply;
@@ -126,10 +126,10 @@
 }
 
 .footer-social-link {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
     transition: all 250ms linear;
 }
 
