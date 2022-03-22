@@ -1,3 +1,10 @@
+//.about-container {
+//    @media screen and (min-width: 768px) and (max-width: 1199px) {
+//        display: flex;
+//        justify-content: center;
+//    }
+//}
+
 .post-title {
     font-weight: 700;
     font-size: 24px;
@@ -13,6 +20,10 @@
     line-height: 1.5;
     letter-spacing: -0.5px;
     color: #2d3436;
+    }
+    
+    @media screen and (max-width: 1199px) {
+        justify-content: center;
     }
 
     @media screen and (max-width: 767px) {
@@ -48,6 +59,10 @@
     line-height: 1.78;
     color: #2D3436;
 
+    @media screen and (max-width: 1199px) {
+        justify-content: center;
+    }
+
     @media screen and (min-width: 1200px) {
         width: 950px;
         font-size: 24px;
@@ -70,38 +85,45 @@
 
 .about-list {
     display: flex;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    //margin: 0px -15px;
+    margin: -20px -15px;
 
-    @media screen and (max-width: 1199px) {
-        flex-wrap: wrap;
-        display: none;
+    @media screen and (max-width: 767px) {
+        width: 360px;
     }
-}
-
-.mobile-about-list {
-    display: flex;
-    margin-top: 40px;
-    margin: -40px -30px;
 }
 
 .about-item {
-    width: 150px;
-    margin: 0 30px;
-    padding: 40px 0;
-    flex-basis: calc (100 / 2);
+    display: flex;
+    //margin: 20px 15px;
+    //padding: 20px 0;
+    margin: 20px 15px;
+
+    @media screen and (max-width:767px) {
+        flex-basis: calc(100% / 2 - 30px);
+    }
+
+    @media screen and (max-width: 1199px) {
+        justify-content: space-between;
+        flex-direction: column;
+        width: 150px;
+    }
 
     @media screen and (min-width: 1200px) {
+        flex-wrap: wrap;
         width: 270px;
     }
-
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
+    //&:not(:last-child) {
+    //    margin-right: 30px;
+    //}
 }
 
 .about-list-title {
     display: flex;
     align-items: center;
+    width: 100%;
     margin-top: 24px;
     font-weight: bold;
     font-size: 18px;

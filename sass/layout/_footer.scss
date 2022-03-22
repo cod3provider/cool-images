@@ -8,22 +8,62 @@
 
 .footer {
     display: flex;
+    overflow: hidden;
+
+    position: relative;
 
     @media screen and (min-width: 767px) {
         background: url(../../images/desktop/wave.png);
         background-position: bottom;
         background-repeat: repeat-x;
     }
+
+    &::before {
+        content: " ";
+        position: absolute;
+        width: 631.69px;
+        height: 352.52px;
+        left: -410px;
+        bottom: -240px;
+        transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+        background: #6C5CE7;
+        opacity: 0.24;
+        border-radius: 45.4479px;
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
+
+    &::after {
+        content: " ";
+        position: absolute;
+        width: 631.69px;
+        height: 207.75px;
+        right: -185.91000000000003px;
+        bottom: -287.25px;
+        background: #FDCB6E;
+        mix-blend-mode: multiply;
+        opacity: 0.24;
+        border-radius: 45.4479px;
+        transform: matrix(0.71, 0.71, 0.71, -0.71, 0, 0);
+
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    }
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    overflow-y: clip;
 
     @media screen and (max-width: 767px) {
         padding: 40px 0;
     }
-    padding: 80px 0 135px;
+    padding: 80px 15px 135px;
 }
 
 .mobile-wrapper {
@@ -48,15 +88,10 @@
 }
 
 .mobile-footer-text {
-    //@media screen and (max-width: 767px) {
-        width: 160px;
-    //}
-
+    width: 160px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.83;
-    //display: flex;
-    //align-items: center;
     text-align: center;
     letter-spacing: 0.3px;
     color: #00B894;
@@ -66,9 +101,6 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 1.78;
-    //display: flex;
-    //align-items: center;
-    //text-align: center;
     letter-spacing: 0.2px;
     color: #6C5CE7;
 }
@@ -98,7 +130,6 @@
     height: 100%;
     display: flex;
     justify-content: center;
-
     transition: all 250ms linear;
 }
 
@@ -113,15 +144,13 @@
 }
 
 .footer-text {
+    display: flex;
+    align-items: center;
     font-weight: 800;
     font-size: 12px;
     line-height: 1.25;
-
-    display: flex;
-    align-items: center;
     letter-spacing: 2.5px;
     text-transform: uppercase;
-
     color: #adadad;
 }
 
@@ -137,28 +166,33 @@
 .footer-info-list {
     display: flex;
     flex-wrap: wrap;
-    // margin-top: -16px;
-    // margin-right: -30px;
     margin: -8px -15px;
 }
 
 .footer-info-item {
-    // margin-top: 16px;
-    // margin-right: 30px;
     margin: 8px 0;
     padding: 0 15px;
-    flex-basis: calc(100% / 3);
+    flex-basis: calc(100% / 2);
+
+    @media screen and (min-width: 1200px) {
+        flex-basis: calc(100% / 3);
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        .footer-info-item {
+            height: 42px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
 }
 
 .footer-info-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
-    // display: flex;
-    // align-items: center;
     letter-spacing: 0.25px;
-
     color: #2d3436;
 
     &:hover,
@@ -171,11 +205,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 1.5;
-
-    // display: flex;
-    // align-items: flex-end;
     letter-spacing: -0.5px;
-
     color: #6c5ce7;
 }
 
@@ -190,24 +220,15 @@
 
 .footer-input {
     margin-bottom: 30px;
-
     width: 270px;
     height: 48px;
     padding: 8px 16px;
-
     font-weight: 400;
-
-    // display: flex;
-    // align-items: center;
-
     color: #2d3436;
 
-    // &:hover,
      &:focus {
         border: 2px solid #6c5ce7;
-
         letter-spacing: 0.2px;
-
         color: #6c5ce7;
 
         &::placeholder {
@@ -219,7 +240,6 @@
 .footer-input-style {
     font-size: 18px;
     line-height: 1.78;
-
     background-color: #f0f0f0;
     border-radius: 16px;
     border: none;
@@ -229,7 +249,6 @@
 .footer-area-message {
     width: 370px;
     height: 80px;
-
     padding: 16px;
     resize: none;
 
@@ -255,16 +274,13 @@
 
     width: 170px;
     height: 80px;
-
     font-size: 24px;
     line-height: 1.5;
-
     letter-spacing: 0.25px;
     color: #ffffff;
     background-color: #6c5ce7;
     text-shadow: 0 2px 4px rgba(38, 50, 56, 0.16),
         0 4px 8px rgba(38, 50, 56, 0.08);
-
     box-shadow: 0 8px 24px rgba(38, 50, 56, 0.1),
         0 16px 32px rgba(38, 50, 56, 0.08);
     border: none;
@@ -285,14 +301,89 @@
     position: absolute;
     top: 4px;
     right: 4px;
-
     width: 40px;
     height: 40px;
-
     transition: all 250ms linear;
 
     .footer-input-style:focus + & {
         filter: invert(0.5) sepia(1) hue-rotate(200deg) saturate(4)
             brightness(1);
     }
+}
+
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100%;
+    padding: 50px 60px;
+    background-color: #ffffff;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 350ms linear,
+    visibility 350ms linear;
+
+    &.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: all;
+    }
+}
+
+.mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-nav-item:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+.mobile-nav-link {
+    font-size: 42px;
+    color: #6C5CE7;
+}
+
+.mobile-menu-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-menu-social {
+    display: flex;
+    width: 330px;
+    justify-content: space-between;
+}
+
+.mobile-menu-item {
+    position: relative;
+}
+
+.mobile-social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.mobile-menu-btn-close {
+    position: absolute;
+    left: 28px;
+    top: 25px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.mobile-menu-icon-close {
+    width: 24px;
+    height: 24px;
 }

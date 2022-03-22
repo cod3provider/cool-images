@@ -32,18 +32,6 @@
         z-index: -1;
         opacity: 0.4;
     }
-
-    //width: 778px;
-    //height: 722px;
-    //position: absolute;
-    //top: -75px;
-    //right: -110px;
-    //background-image: url(../../images/desktop/rectangle.png);
-    //background-repeat: no-repeat;
-    //opacity: 0.4;
-    //overflow-x: hidden;
-    //background-size: auto auto;
-    //z-index: -10;
 }
 
 .mobile-absolute-container {
@@ -86,7 +74,7 @@
     line-height: 1.2;
     letter-spacing: -1px;
     color: #2D3436;
-    text-shadow: 0px 4px 0px #FFFFFF;
+    text-shadow: 0 4px 0 #FFFFFF;
 
     @media screen and (max-width: 767px) {
         width: 330px;
@@ -109,12 +97,7 @@
     position: absolute;
     background-image: url("../../images/mobile/hero-wave.png");
     background-repeat: repeat-x;
-    //background-size: cover;
-    //background: #FFEAA7;
-    //transform: matrix(0.57, -0.69, 1.08, 0.44, 0, 0);
 
-    background-image: url(../../images/mobile/hero-wave.png);
-    background-repeat: repeat-x;
     width: 100%;
     height: 100%;
     left: 0;
@@ -181,7 +164,7 @@
     line-height: 1.17;
     letter-spacing: -1px;
     color: #2D3436;
-    text-shadow: 0px 4px 0px #FFFFFF;
+    text-shadow: 0 4px 0 #FFFFFF;
 }
 
 .hero-section::before {
@@ -198,35 +181,13 @@
     @media screen and (min-width: 768px) {
         content: " ";
         position: absolute;
-        right: 0px;
+        right: 0;
         top: 114px;
         width: 209px;
         height: 285px;
         background-image: url(../../images/desktop/dots.png);
     }
 }
-
-// .hero-section::after {
-//     content: "";
-//     position: absolute;
-
-//     width: 1376.03px;
-//     height: 767.91px;
-//     left: 855px;
-//     top: -463.91px;
-//     background: #ffeaa7;
-//     border-radius: 99px;
-//     transform: rotate(-45deg);
-//     overflow: hidden;
-//     // width: 50%;
-//     // height: 50%;
-//     // top: 0;
-//     // right: 0;
-//     background-image: url(../../images/desktop/Rectangle.png);
-//     background-repeat: no-repeat;
-
-//     z-index: -5;
-// }
 
 .hero-text {
     display: flex;
@@ -247,9 +208,6 @@
 }
 
 .hero-mobile-text {
-    //display: flex;
-    //align-items: center;
-    //justify-content: center;
     width: 330px;
     height: 92px;
     margin: 16px auto 8px;
@@ -280,14 +238,6 @@
         width: 364px;
     }
 }
-
-// .text-left {
-//     width: 266px;
-// }
-
-// .text-right {
-//     width: 364px;
-// }
 
 .flex-container {
     display: flex;
@@ -472,7 +422,7 @@
     flex-wrap: wrap;
     width: 470px;
     height: 495px;
-    margin: 0 auto;
+    margin: 24px auto 0;
 
     @media screen and (min-width: 1200px) {
         display: none;
@@ -481,13 +431,13 @@
 
 .mobile-left-container {
     display: flex;
+    position: relative;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-content: center;
+    margin-right: 15px;
     width: 130px;
     height: 495px;
-    position: relative;
-    margin-right: 15px;
 }
 
 .mobile-thumb-pomade {

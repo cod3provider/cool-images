@@ -436,6 +436,10 @@
     border: 1px solid #adadad;
     letter-spacing: 0.2px;
     color: #6c5ce7;
+    
+    @media screen and (min-width: 1200px) {
+        height: 64px;
+    }
 
     &:hover,
     &:focus {

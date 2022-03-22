@@ -17,10 +17,6 @@ a {
 
 body {
     font-family: "Inter", sans-serif;
-
-    @media screen and (min-width: 320px) {
-        overflow-x: hidden;
-    }
 }
 
 img {
