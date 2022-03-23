@@ -140,41 +140,29 @@
 .about-icon {
     width: 40px;
     height: 40px;
+    padding: 9px;
     border-radius: 12px;
-    padding: 7px;
 
     @media screen and (min-width: 1200px) {
         width: 56px;
         height: 56px;
+        padding: 12px;
         border-radius: 50px;
     }
 }
 
 .icon-pink {
     background-color: #e84393;
-    background-image: url(../../images/phone-call-svgrepo-com.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon-blue {
     background-color: #0984e3;
-    background-image: url(../../images/pie-chart-svgrepo-com.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon-purple {
     background-color: #6c5ce7;
-    background-image: url(../../images/zap-svgrepo-com.svg);
-
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .icon-green {
     background-color: #00b894;
-    background-image: url(../../images/thumbs-up-svgrepo-com.svg);
-    background-repeat: no-repeat;
-    background-position: center;
 }
