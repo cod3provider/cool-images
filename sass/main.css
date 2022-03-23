@@ -296,7 +296,7 @@ input:focus {
 }
 @media screen and (max-width: 1199px) {
   .background-container {
-    background-image: url("../../images/mobile/hero-bg1.png");
+    background-image: url("../../images/mobile/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
