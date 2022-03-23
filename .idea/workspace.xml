@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9650e698-36f2-4370-a684-2ba41fc597f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f0731e9f-0b68-4f4b-a1de-9d4d201cfa49" />
+        <option name="url" value="https://github.com/cod3provider/cool-images.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26R5QGNJg5kNcZVhgtnTkSJXuFY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/mobile" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/images/icon-check.svg" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/mobile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/mobile" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9650e698-36f2-4370-a684-2ba41fc597f6" name="Changes" comment="" />
+      <created>1647373540434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647373540434</updated>
+      <workItem from="1647373545482" duration="1098000" />
+      <workItem from="1647374666377" duration="46000" />
+      <workItem from="1647374745106" duration="3000" />
+      <workItem from="1647374788520" duration="2174000" />
+      <workItem from="1647423772240" duration="31953000" />
+      <workItem from="1647532657817" duration="16335000" />
+      <workItem from="1647616170330" duration="22535000" />
+      <workItem from="1647688152532" duration="4589000" />
+      <workItem from="1647763490719" duration="2810000" />
+      <workItem from="1647776787335" duration="3497000" />
+      <workItem from="1647790048036" duration="98000" />
+      <workItem from="1647790166765" duration="8163000" />
+      <workItem from="1647802685512" duration="5170000" />
+      <workItem from="1647849056928" duration="26661000" />
+    </task>
+    <task id="LOCAL-00001" summary="add mobile">
+      <created>1647616407160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647616407160</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add adaptive">
+      <created>1647715494474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647715494474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="bugfix adaptive">
+      <created>1647766301886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647766301887</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add header mobile-menu">
+      <created>1647802523479</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647802523479</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bugfix footer">
+      <created>1647955528163</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647955528163</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change hero section">
+      <created>1647978294383</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647978294383</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final bugfix">
+      <created>1648042115899</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648042115899</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mobile" />
+    <MESSAGE value="add adaptive" />
+    <MESSAGE value="bugfix adaptive" />
+    <MESSAGE value="add header mobile-menu" />
+    <MESSAGE value="bugfix footer" />
+    <MESSAGE value="change hero section" />
+    <MESSAGE value="final bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final bugfix" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
