@@ -17,7 +17,9 @@
 }
 
 .background-container {
-    @media screen and (max-width: 767px) {
+    position: relative;
+
+    @media screen and (max-width: 1199px) {
         background-image: url("../../images/mobile/hero-bg1.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -115,6 +117,11 @@
 
 .hero-container {
     position: relative;
+
+    @media screen and (max-width: 767px) {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 .hero-container::before {
@@ -198,7 +205,7 @@
     position: absolute;
     right: -16px;
     top: 0;
-    z-index: 1;
+    z-index: 0;
     width: 143px;
     height: 195px;
     background-image: url(../../images/mobile/mobile-dots.png);
@@ -332,7 +339,7 @@
     line-height: 1.17;
     letter-spacing: -1px;
 
-    text-shadow: 0px 4px 0px #000000;
+    text-shadow: 0 4px 0 #000000;
 }
 
 .label-man {
@@ -423,7 +430,7 @@
     height: 222px;
 }
 
-.hero-mobile-btn {
+.hero-mobile-down-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -664,20 +671,35 @@
 //    border-radius: 4px;
 //}
 //
-//.mobile-hero-btn {
-//    display: flex;
-//    justify-content: center;
-//    align-items: center;
-//    width: 130px;
-//    height: 37px;
-//    padding: 8px 16px;
-//
-//    background: #6C5CE7;
-//    border-radius: 25px;
-//    border: none;
-//    font-weight: 700;
-//    font-size: 14px;
-//    line-height: 1.71;
-//    letter-spacing: 0.2px;
-//    color: #FFFFFF;
-//}
+.mobile-hero-btn {
+    position: absolute;
+    bottom: 65px;
+    left: 63%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 37px;
+    padding: 8px 16px;
+
+    background: #6C5CE7;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+
+    @media screen and (min-width: 768px) {
+        bottom: 100px;
+        left: 61%;
+        width: 170px;
+        height: 60px;
+        font-size: 22px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: none;
+    }
+}

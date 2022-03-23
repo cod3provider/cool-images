@@ -41,11 +41,6 @@ input:focus {
     padding-bottom: 80px;
   }
 }
-@media screen and (max-width: 767px) {
-  .section {
-    height: 920px;
-  }
-}
 
 .container {
   padding-left: 15px;
@@ -296,7 +291,10 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 767px) {
+.background-container {
+  position: relative;
+}
+@media screen and (max-width: 1199px) {
   .background-container {
     background-image: url("../../images/mobile/hero-bg1.png");
     background-repeat: no-repeat;
@@ -309,13 +307,13 @@ input:focus {
     height: 495px;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) and (min-width: 768px) and (max-width: 1199px) {
   .background-container {
     max-width: 768px;
     height: 780px;
   }
 }
-@media screen and (max-width: 767px) and (min-width: 1200px) {
+@media screen and (max-width: 1199px) and (min-width: 1200px) {
   .background-container {
     display: none;
   }
@@ -392,6 +390,12 @@ input:focus {
 
 .hero-container {
   position: relative;
+}
+@media screen and (max-width: 767px) {
+  .hero-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 .hero-container::before {
@@ -471,7 +475,7 @@ input:focus {
   position: absolute;
   right: -16px;
   top: 0;
-  z-index: 1;
+  z-index: 0;
   width: 143px;
   height: 195px;
   background-image: url(../../images/mobile/mobile-dots.png);
@@ -597,7 +601,7 @@ input:focus {
   font-size: 48px;
   line-height: 1.17;
   letter-spacing: -1px;
-  text-shadow: 0px 4px 0px #000000;
+  text-shadow: 0 4px 0 #000000;
 }
 
 .label-man {
@@ -682,7 +686,7 @@ input:focus {
   height: 222px;
 }
 
-.hero-mobile-btn {
+.hero-mobile-down-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -694,7 +698,7 @@ input:focus {
   border: none;
 }
 @media screen and (min-width: 768px) {
-  .hero-mobile-btn {
+  .hero-mobile-down-btn {
     display: none;
   }
 }
@@ -702,6 +706,40 @@ input:focus {
 .mobile-btn-icon {
   width: 40px;
   height: 40px;
+}
+
+.mobile-hero-btn {
+  position: absolute;
+  bottom: 65px;
+  left: 63%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 37px;
+  padding: 8px 16px;
+  background: #6C5CE7;
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+@media screen and (min-width: 768px) {
+  .mobile-hero-btn {
+    bottom: 100px;
+    left: 61%;
+    width: 170px;
+    height: 60px;
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mobile-hero-btn {
+    display: none;
+  }
 }
 
 .post-title {
