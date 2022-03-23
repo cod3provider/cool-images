@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9650e698-36f2-4370-a684-2ba41fc597f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/images/hero-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/layout/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/sass/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/desktop/icon-edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop/icon-edit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/desktop/icon-mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop/icon-mail.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/desktop/icon-user.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/desktop/icon-user.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,8 @@
       <recent name="$PROJECT_DIR$/images/mobile" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images/mobile" />
       <recent name="$PROJECT_DIR$/images/desktop" />
+      <recent name="$PROJECT_DIR$/images/mobile" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -81,7 +82,7 @@
       <workItem from="1647790048036" duration="98000" />
       <workItem from="1647790166765" duration="8163000" />
       <workItem from="1647802685512" duration="5170000" />
-      <workItem from="1647849056928" duration="31792000" />
+      <workItem from="1647849056928" duration="32277000" />
     </task>
     <task id="LOCAL-00001" summary="add mobile">
       <created>1647616407160</created>
