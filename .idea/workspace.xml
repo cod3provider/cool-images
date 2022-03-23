@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9650e698-36f2-4370-a684-2ba41fc597f6" name="Changes" comment="final bugfix image" />
+    <list default="true" id="9650e698-36f2-4370-a684-2ba41fc597f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +76,7 @@
       <workItem from="1647790048036" duration="98000" />
       <workItem from="1647790166765" duration="8163000" />
       <workItem from="1647802685512" duration="5170000" />
-      <workItem from="1647849056928" duration="30702000" />
+      <workItem from="1647849056928" duration="31289000" />
     </task>
     <task id="LOCAL-00001" summary="add mobile">
       <created>1647616407160</created>
@@ -162,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648046906269</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="final bugfix">
+      <created>1648047251377</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648047251377</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,9 +182,9 @@
     <MESSAGE value="add header mobile-menu" />
     <MESSAGE value="bugfix footer" />
     <MESSAGE value="change hero section" />
-    <MESSAGE value="final bugfix" />
     <MESSAGE value="final bugfix images" />
-    <option name="LAST_COMMIT_MESSAGE" value="final bugfix images" />
+    <MESSAGE value="final bugfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final bugfix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
