@@ -300,7 +300,7 @@ input:focus {
     margin-right: auto;
     max-width: 468px;
     height: 495px;
-    background-image: url("./images/mobile/hero-bg.png");
+    background-image: url("../images/mobile/hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
